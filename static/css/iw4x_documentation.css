@@ -1,0 +1,51 @@
+/* Tor2web header */
+#tor2web-header, #tor2web-banner {
+  margin-left: 300px !important;
+}
+
+/* Main content */
+.wy-nav-content {
+  max-width: none;
+}
+
+/* Sidebar top area (search navigation) */
+.wy-side-nav-search {
+  background-color: transparent;
+}
+
+/* Warfare² colors */
+.w2-color-0 { color: rgb(0, 0, 0); }
+.w2-color-1 { color: rgb(255, 49, 49); }
+.w2-color-2 { color: rgb(134, 192, 0); }
+.w2-color-3 { color: rgb(255, 173, 34); }
+.w2-color-4 { color: rgb(0, 135, 193); }
+.w2-color-5 { color: rgb(32, 197, 255); }
+.w2-color-6 { color: rgb(151, 80, 221); }
+.w2-color-7 { color: rgb(192, 192, 192); }
+.w2-color-8-american { color: rgb(0, 92, 0); }
+.w2-color-8-russian { color: rgb(128, 0, 0); }
+.w2-color-8-british { color: rgb(0, 0, 128); }
+.w2-color-9 { color: rgb(128, 128, 128); }
+.w2-color-10 { animation: rainbow-color 7s infinite; }
+.w2-color-11 { color: rgb(134, 192, 0); }
+
+@keyframes rainbow-color {
+  0% {
+    color: #333;
+  }
+  20% {
+    color:#06C;
+  }
+  40% {
+    color:#090;
+  }
+  60% {
+    color:#FC0;
+  }
+  80% {
+    color:#F00;
+  }
+  100% {
+    color:#606;
+  }
+}
